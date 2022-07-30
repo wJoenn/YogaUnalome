@@ -55,7 +55,7 @@ a
         opacity: 1;
     }
 
-    .instagram:hover
+    .fa-instagram:hover
         {
             background: linear-gradient(yellow, purple);
             background: -webkit-linear-gradient(yellow, purple);
@@ -95,7 +95,7 @@ main
             opacity: 1;
         }
     
-        .instagram
+        .fa-instagram
             {
                 background: linear-gradient(yellow, purple);
                 background: -webkit-linear-gradient(yellow, purple);
