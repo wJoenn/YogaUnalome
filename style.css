@@ -97,9 +97,10 @@ main
     
         .instagram
             {
-                background: linear-gradient(yellow, purple);
+                /* background: linear-gradient(yellow, purple);
                 -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
+                -webkit-text-fill-color: transparent; */
+                color: red;
             }
     
         .facebook
