@@ -81,19 +81,12 @@ a
             opacity: 0.3;
         }
 
-main
-    {
-        color: black;
-        margin: 50px;
-        text-align: center;
-    }
-
 @media only screen and (max-width: 768px)
     {
-        li
-        {
-            opacity: 1;
-        }
+        .link
+            {
+                opacity: 1;
+            }
     
         .fa-instagram
             {
