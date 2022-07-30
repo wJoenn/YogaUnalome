@@ -59,6 +59,7 @@ a
     .instagram:hover
         {
             background: -webkit-linear-gradient(yellow, purple);
+            background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
