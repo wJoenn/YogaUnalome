@@ -59,8 +59,9 @@ a
     .instagram:hover
         {
             background: linear-gradient(yellow, purple);
+            background: -webkit-linear-gradient(yellow, purple);
             -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: rgba(250,250,250, 0);
         }
 
     .facebook:hover
@@ -97,10 +98,11 @@ main
     
         .instagram
             {
-                /* background: linear-gradient(yellow, purple);
+                background: linear-gradient(yellow, purple);
+                background: -webkit-linear-gradient(yellow, purple);
+                background-clip: text;
                 -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent; */
-                color: red;
+                color: rgba(250,250,250, 0);
             }
     
         .facebook
