@@ -7,19 +7,11 @@ body
         .banner
             {
                 width: 100%;
-                min-height: 100vh;
-                min-height: -moz-available;
-                min-height: -webkit-fill-available;
-                min-height: fill-available;
+                height: 100%;
                 background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.2) 70%,  rgba(0, 0, 0, 0.8) 100%), url(./images/IMG-2510.jpg);
                 background-position: 50% 68%;
                 background-size: cover;
                 color: white;
-                /* display: flex;
-                justify-content: space-between;
-                position: relative;
-                align-items: center;
-                flex-direction: column; */
                 z-index: 0;
             }
 
