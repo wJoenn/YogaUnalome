@@ -39,12 +39,6 @@ body
                         font-size: 1.8em;
                     }
 
-                .logo
-                    {
-                        width: 200px;
-                        margin-top: 150px;
-                    }
-
                 .navbarMobile
                     {
                         background-color: rgb(0, 0, 0, 0.8);
@@ -54,6 +48,14 @@ body
                         top: 0;
                         left: 0;
                         display: none;
+                        z-index: 0;
+                    }
+
+                    .logo
+                    {
+                        width: 200px;
+                        margin-top: 150px;
+                        z-index: 1;
                     }
 
                     .links
